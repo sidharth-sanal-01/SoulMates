@@ -24,7 +24,7 @@ Welcome to the **\SoulMates**! This is a full-stack application where users can 
 
 Watch the demo video to see the app's features in action:
 
-[![Watch the demo](./client/public/videos/demo.mkv)](./client/public/videos/demo.mkv)
+./client/public/videos/demo.mkv
 
 ## Features
 
