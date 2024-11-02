@@ -1,0 +1,36 @@
+
+.friendsSection {
+    margin-top: 20px;
+    /* border-radius: 15px; */
+    padding: 10px 0 10px 20px ;
+    box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -moz-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -webkit-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+}
+
+.eachUser {
+    display: flex;
+    align-items: center;
+    margin: 0 0 10px 0;
+}
+
+.eachUser .profilePic img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+
+}
+
+.personName {
+    margin-left: 15px;
+    font-size: 18px;
+
+}
+
+.allfriendsHeading{
+    margin: 10px 0 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+}

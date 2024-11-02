@@ -1,0 +1,102 @@
+.leftSidebarWrap {
+    flex: 3;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    overflow-y: scroll;
+    max-height: 88.65vh;
+    top: 80px;
+
+}
+
+::-webkit-scrollbar-track {
+
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    height: 40px;
+    background-color: #3E00FF;
+}
+
+.topSection .eachLine .showMore {
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.eachLine {
+    display: flex;
+    align-items: center;
+    margin: 18px 0;
+
+}
+
+.eachIcon {
+    margin: 0 10px 0 0;
+}
+
+
+.icon {
+    font-size: 30px !important;
+    margin: 0;
+}
+
+.iconText h3 {
+    font-size: 25px;
+    margin: 0 0 0 10px;
+    letter-spacing: 1px;
+}
+
+.showMore {
+    margin-left: 15px;
+    margin-top: 20px;
+    padding: 15px 60px;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+.lineBreak {
+    margin-top: 20px;
+    margin-left: 0;
+    color: gray;
+}
+
+.bottomSection {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.eachUser {
+    display: flex;
+    align-items: center;
+}
+
+.eachUser .profilePic img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+
+}
+
+.personName {
+    margin-left: 15px;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width: 430px) {
+    .leftSidebarWrap{
+        display: none;
+    }
+    
+}

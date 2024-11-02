@@ -1,0 +1,176 @@
+.LoginWrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: #212124; */
+    /* background-color: #212124; */
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+.loginMain {
+    /* box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71) !important; */
+
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 100px 50px;
+    background-color: #212124;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.aboutBook {
+    width: 50%;
+    flex: 6;
+    margin-right: 30px;
+}
+
+.aboutBook h1 {
+    margin: 0 0 5px 0;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E00FF;
+}
+
+.aboutBook p {
+    color: #fff;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.inputSection {
+
+    flex: 6;
+    text-align: center;
+}
+
+.inputSection input {
+    width: 100%;
+    /* margin: 20px 10px; */
+    border: 0;
+    color: #fff;
+    /* border-bottom: 1px solid grey; */
+    font-size: 15px;
+    background-color: #212124;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+
+}
+
+.inputSection input:focus {
+    outline: none;
+    border-bottom: 2px solid #3E00FF;
+    /* transition: 0.2s; */
+
+}
+
+.buttonLogin {
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    background-color: #3E00FF;
+    padding: 10px 0;
+    margin: 5px 10px;
+
+}
+
+
+.signUptag h3 {
+    font-size: 15px;
+    margin-top: 20px 0 0 20px;
+    color: #fff;
+    text-align: right;
+}
+
+@media screen and (max-width:480px) {
+
+    .LoginWrapper {
+        background-image: url("https://i.pinimg.com/564x/1a/dc/f6/1adcf60bb5f2fb7ba9132e50bc38d16e.jpg") !important;
+        /* background-color: #fff !important; */
+        padding: 0 30px;
+    }
+
+    .loginMain {
+        padding: 30px 30px !important;
+        flex-direction: column;
+        /* text-align: center; */
+        width: 85% !important;
+        height: 50%;
+        justify-content: space-evenly;
+        background: none !important;
+        border-radius: 0 !important;
+        background-color: #ffff !important;
+        box-shadow: none !important;
+
+    }
+
+    .aboutBook {
+        width: auto !important;
+        height: 100px;
+        margin-right: 0 !important;
+        display: flex;
+        flex: none !important;
+        /* flex: auto !important; */
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .aboutBook p {
+        display: none;
+    }
+
+    form {
+        width: 100% !important;
+    }
+
+    .aboutBook h1 {
+        text-align: center;
+        font-size: 50px !important;
+        margin-bottom: 10px;
+    }
+
+    .inputSection {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        flex-direction: column;
+        width: 100% !important;
+
+    }
+
+    .inputSection input {
+        background: none !important;
+        color: #000 !important;
+        width: 100% !important;
+        border-bottom: 2px solid grey !important;
+        margin: 20px 0;
+    }
+
+    .inputSection input:focus {
+        outline: none;
+        border-bottom: 2px solid #3E00FF !important;
+        /* transition: 0.2s; */
+
+    }
+
+    .signUptag {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        color: #000 !important;
+        text-align: right;
+    }
+
+    .signUptag h3{
+        color: #000;
+    }
+}

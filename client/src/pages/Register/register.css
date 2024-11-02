@@ -1,0 +1,103 @@
+.LoginWrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #212124;
+    background-color: #212124;
+    background-image: url("https://www.transparenttextures.com/patterns/food.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+.loginMain {
+    box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -moz-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -webkit-box-shadow: 0px 0px 20px 8px #000000;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    padding: 100px 50px;
+    background-color: #212124;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.aboutBook {
+    width: 400px;
+    flex: 6;
+    margin-right: 30px;
+}
+
+.aboutBook h1 {
+    margin: 0 0 5px 0;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E00FF;
+}
+
+.aboutBook p {
+    color: #fff;
+    line-height: 1.4;
+    font-size: 20px;
+}
+
+.inputSection {
+    width: 400px;
+    flex: 6;
+    text-align: center;
+}
+
+.inputSection input {
+    width: 100%;
+    margin: 20px 10px;
+    border: 0;
+    color: #fff;
+    /* border-bottom: 1px solid grey; */
+    font-size: 15px;
+    background-color: #212124;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+
+}
+
+.inputSection input:focus {
+    outline: none;
+    border-bottom: 2px solid #3E00FF;
+    /* transition: 0.2s; */
+
+}
+
+.buttonRegister {
+    /* border-radius: 10px; */
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    background-color: #3E00FF;
+    padding: 10px 0;
+    margin: 5px 10px;
+
+}
+
+
+.buttonLoginRegisterPage{
+    /* border-radius: 10px; */
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    width: 40%;
+    background-color: #28FFBF;
+    padding: 10px 0;
+    margin: 5px 10px;
+}
+
+
+.buttonLoginRegisterPage:hover {
+    color: black;
+}

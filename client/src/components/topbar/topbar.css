@@ -1,0 +1,231 @@
+.topbarContainer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin: 0;
+    background-color: #3E00FF;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.topbarLeft {
+    display: flex;
+    align-items: center;
+    flex: 3;
+}
+
+.topbarMiddle {
+    flex: 5;
+
+}
+
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    border-radius: 18px;
+
+}
+
+.searchIcon {
+    margin-left: 5px;
+}
+
+.topbarMiddle input {
+    width: 90%;
+    height: 30px;
+    border: none;
+}
+
+.topbarMiddle input:focus {
+    outline: none !important;
+
+}
+
+
+.logoHeading {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 10px 20px;
+}
+
+
+
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+    color: white;
+}
+
+
+.iconsSection {
+    display: flex;
+    align-items: center;
+
+}
+
+.timeLine h2 {
+    color: #fff;
+}
+
+.icon {
+    position: relative;
+}
+
+.iconNo {
+    text-align: center;
+    width: 18px;
+    font-size: 13px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 55%;
+    top: -13%;
+}
+
+.iconNo p {
+    margin: 0;
+}
+
+
+.eachIcon {
+    font-size: 30px !important;
+    margin: 0 30px !important;
+}
+
+.profileImage {
+    border: 3px solid #fff;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+
+.menuIconWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.menuIcon {
+    display: none !important;
+    font-size: 50px !important;
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.closeIconWrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: right;
+    padding-right: 0px;
+}
+
+.closeIcon {
+    font-size: 30px !important;
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.menuItems {
+    text-align: center;
+    position: sticky;
+    /* display: none; */
+    height: 100%;
+    width: 100%;
+    top:0;
+    padding: 20px  30px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#menuContent{
+    display: none;
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 50%; */
+    width: 60%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+}
+
+
+.LeftBarProfilePic{
+    display: flex;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.LeftBarProfilePic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    margin-bottom: 40px;
+}
+
+.menuItems h3 {
+    margin: 0px 0 40px;
+    color: #fff;
+}
+
+@media screen and (max-width:480px) {
+    .topbarContainer {
+        height: 50px;
+        padding: 10px 0;
+    }
+
+    .topbarLeft {
+        padding-left: 10px;
+        flex: 6;
+    }
+
+    .topbarLeft h1 {
+        display: none;
+    }
+
+    .topbarMiddle {
+        display: none;
+    }
+
+    .topbarRight {
+        padding-right: 10px;
+        flex: 6;
+        justify-content: right;
+        margin-right: 0;
+    }
+
+    .timeLine {
+        display: none;
+    }
+
+    .iconsSection {
+        display: none;
+    }
+
+
+
+    .topbarMiddle input {
+        width: 80%;
+    }
+
+    .menuIcon{
+        display: inline !important;
+    }
+}

@@ -1,0 +1,160 @@
+.feedWrapper {
+    flex: 9;
+
+}
+
+.coverImageSection {
+    position: relative;
+}
+
+.coverImage {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.coverImageMoreIcon {
+    font-size: 40px !important;
+    color: #fff;
+}
+
+.more {
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.moreIcon {
+    font-size: 40px !important;
+    color: #fff;
+}
+
+.testing {
+    position: absolute;
+    margin-right: 125px;
+    bottom: -60%;
+    left: 50%;
+}
+
+.imageProfile img {
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+
+
+}
+
+.NameProfile h2 {
+    bottom: 20%;
+    margin: 0;
+    font-weight: 900;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.NameProfile h3 {
+    bottom: 10%;
+    color: grey;
+    margin: 0;
+    font-weight: 700;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.feedBottom {
+    display: flex;
+    margin-top: 300px;
+}
+
+.submitButton {
+    border: none;
+    margin: 0 ;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 364px;
+    right: 10px;
+}
+
+.testingMobileView {
+    /* visibility: hidden; */
+    display: none;
+}
+
+@media screen and (max-width:430px) {
+    .feedWrapper {
+        flex: 12;
+        width: 100%;
+    }
+
+    .testing {
+        display: none;
+    }
+
+    .testingMobileView {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .imageProfileMobileView img{
+        object-fit: contain;
+        border: 6px solid #fff;
+        border-radius: 50%;
+        height: 250px;
+        width: 250px;
+    
+    }
+
+
+    .coverImageMobie {
+        position: absolute;
+        left: 25%;
+        top: -95%;
+        width: 200px;
+        height: 200px;
+        justify-content: center;
+        border-radius: 50%;
+
+    }
+
+  
+    .feedBottom {
+        margin-top: 50px;
+    }
+
+    .NameProfileMobileView {
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+
+    }
+
+    .NameProfileMobileView h3{
+        margin: 10px 0 0 0 ;
+        font-size: 20px;
+    }
+
+    .NameProfileMobileView h2{
+        margin: 35px 0 0 0 ;
+    }
+
+
+}

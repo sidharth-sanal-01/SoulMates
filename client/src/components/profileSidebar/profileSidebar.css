@@ -1,0 +1,98 @@
+.profileSidebarWrapper {
+    flex: 3.5;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.inputDetails{
+    border:none;
+    background-color: transparent;
+    outline: none;
+}
+
+.followButton{
+    background-color: #3E00FF;;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+}
+.followUser{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userDetails {
+    margin: 20px 8px 20px 0;
+    padding: 15px 5px 20px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -moz-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -webkit-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+}
+
+.followUser h2 {
+    margin: 0 20px 0px 0;
+    font-size: 20px;
+}
+
+.eachUserDetail {
+    margin: 15px 0px;
+}
+
+.query {
+    font-size: 20px;
+}
+
+.userAnswer {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* friendsList */
+
+.friendsListWrapper {
+    box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -moz-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -webkit-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    margin: 32px 8px 20px 0;
+    border-radius: 15px;
+}
+
+.friendsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 0 20px 20px;
+
+
+}
+
+.friendsListHeading {
+    margin: 0 0 10px 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.eachFriend {
+    flex: 0 0 33.333333%;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.eachFriend img {
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.eachFriend h3 {
+    
+    color: black;
+    margin: 0;
+    text-align: center;
+}

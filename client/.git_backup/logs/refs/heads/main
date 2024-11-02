@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 0589f960268afeed5123522c4128c32a0da68f22 Sidharth <downloadall616@gmail.com> 1639865331 +0530	branch: Created from HEAD
+0589f960268afeed5123522c4128c32a0da68f22 0589f960268afeed5123522c4128c32a0da68f22 Sidharth <downloadall616@gmail.com> 1639865718 +0530	Branch: renamed refs/heads/main to refs/heads/main
+0589f960268afeed5123522c4128c32a0da68f22 7379c5290f54029ad021f081332df494e46b1c57 Sidharth <downloadall616@gmail.com> 1639866078 +0530	commit: added redirect route
+7379c5290f54029ad021f081332df494e46b1c57 592cba9e77b50db90ae8e20a091ddd806e30c8a9 Sidharth <downloadall616@gmail.com> 1639940432 +0530	commit: made changes to login and register pages
+592cba9e77b50db90ae8e20a091ddd806e30c8a9 b891872e884de2c4789bf2fe28de53a61373f09f Sidharth <downloadall616@gmail.com> 1639940491 +0530	commit: addded proper backend url
+b891872e884de2c4789bf2fe28de53a61373f09f f235a775de3d87efda6ee878255a4a665bebf507 Sidharth <downloadall616@gmail.com> 1639941063 +0530	commit: added icon libraries
+f235a775de3d87efda6ee878255a4a665bebf507 4ea5a6ed0c2f0fd11eb8f86efa8c30d718057dd3 Sidharth <downloadall616@gmail.com> 1639943630 +0530	commit: solved profilePicture bug
+4ea5a6ed0c2f0fd11eb8f86efa8c30d718057dd3 556f087280eb4da4179110fbbb55c79cbacdd3d4 Sidharth <downloadall616@gmail.com> 1639943799 +0530	commit: reduced topbar height
+556f087280eb4da4179110fbbb55c79cbacdd3d4 86c83c5db039390c21c75197ada51c0a228733cd Sidharth <downloadall616@gmail.com> 1640029024 +0530	commit: added default profile picture and cover picture
+86c83c5db039390c21c75197ada51c0a228733cd 83ab8c99f40718228b260ccd847ba6c109540922 Sidharth <downloadall616@gmail.com> 1640033502 +0530	commit: solved some leftsidebar bugs

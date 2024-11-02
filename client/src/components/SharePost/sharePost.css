@@ -1,0 +1,140 @@
+
+.sharePost {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -moz-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+    -webkit-box-shadow: 0px 0px 34px 7px rgba(119, 119, 119, 0.71);
+}
+
+
+.shareTop {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+
+.profilePic img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #3E00FF;
+    margin-right: 10px;
+}
+
+.shareTop textarea {
+    padding-right: 10px;
+    width: 100%;
+    height: 80px;
+    margin: 10px 0 10px;
+    border: none;
+    resize: none;
+    line-height: 1.4;
+}
+
+.shareTop textarea:focus {
+    outline: none;
+}
+
+
+.sharepostLineBreak {
+    margin-top: 5px;
+    margin-left: 0;
+    color: gray;
+}
+
+.shareBottom {
+   padding: 0 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sharePostIcon {
+    font-size: 40px !important;
+    text-align: center;
+}
+
+.eachIconSection {
+    text-align: center;
+}
+
+.textBelowIcon h3 {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
+}
+
+.image {
+    color: #F43B86 !important;
+}
+
+
+.link {
+    color: #AE00FB;
+}
+
+.live {
+    color: red;
+}
+
+.video {
+    color: #00AF91;
+}
+
+.location {
+    color: #0F3460;
+}
+
+.shareButton button{
+    background-color:#3E00FF ;
+    padding: 15px 25px ;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.sharedImage{
+    padding: 0 10px 20px;
+}
+.sharedImage img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:480px) {
+    .sharePost{
+        /* display: none; */
+        flex-direction: column;
+        /* align-items: center; */
+        width: 100%;
+        padding:0;
+    }
+
+    .shareTop{
+        width: auto;
+    }
+
+    .link,.video,.live{
+        display: none;
+    }
+    
+    .eachIconSection{
+        display: none;
+    }
+
+    .shareBottom{
+        justify-content: space-between;
+    }
+
+    .shareBottom :first-child{
+        display: block;
+    }
+}

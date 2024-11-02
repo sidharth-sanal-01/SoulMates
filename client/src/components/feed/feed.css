@@ -1,0 +1,14 @@
+.mainFeed {
+    flex: 5.5;
+    margin: 20px 10px 40px 10px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+@media screen and (max-width:430px) {
+    .mainFeed{
+        flex: 12;
+        margin: 0;
+        padding: 20px 10px;
+    }
+}
