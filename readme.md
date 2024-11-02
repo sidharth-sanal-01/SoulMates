@@ -75,6 +75,5 @@ npm start
 
 
 
-> **Note:** Replace `your_video_id` with the actual ID of your video from YouTube or another platform.
 
 
